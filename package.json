@@ -1,6 +1,7 @@
 {
   "name": "capacitor-app",
   "version": "1.0.0",
+  "homepage": "https://pmp38.github.io/vibrationApp",
   "description": "An Amazing Capacitor App",
   "main": "index.js",
   "keywords": [
@@ -8,6 +9,8 @@
     "mobile"
   ],
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
