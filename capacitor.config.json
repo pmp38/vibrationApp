@@ -1,0 +1,11 @@
+{
+  "appId": "com.example.app",
+  "appName": "vibrationApp",
+  "bundledWebRuntime": false,
+  "webDir": "D:\prjo_c1s\40_management\49_checklist_req\2023\04\48301\Code\app\haptics\my-app\src",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
